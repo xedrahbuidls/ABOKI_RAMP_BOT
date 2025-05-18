@@ -1,0 +1,28 @@
+{
+  "name": "aboki-crypto-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for cryptocurrency exchange",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.6.3",
+    "telegraf": "^4.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "cryptocurrency",
+    "exchange"
+  ],
+  "author": "",
+  "license": "MIT"
+}
